@@ -34,7 +34,6 @@
   left: 0;
   background-color: #0c717a; 
   transform: translateX(-100%);
-  /* color: wheat; */
 }
 
 .smoothButton::after {

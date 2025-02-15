@@ -2,21 +2,21 @@ import React, { useState } from 'react';
 import styles from './Blog.module.css';
 
 const Blog = () => {
-  const [formData, setFormData] = useState({ title: '', description: '' }); // Directly define state here
-  const [submittedEntries, setSubmittedEntries] = useState([]); // Store submitted entries
+  const [formData, setFormData] = useState({ title: '', description: '' }); 
+  const [submittedEntries, setSubmittedEntries] = useState([]); 
 
   const handleChange = (e) => {
     setFormData((prevData) => ({
       ...prevData,
-      [e.target.name]: e.target.value, // Dynamically update the specific field
+      [e.target.name]: e.target.value, 
     }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (formData.title.trim() && formData.description.trim()) {
-      setSubmittedEntries((prevEntries) => [...prevEntries, formData]); // Add form data to entries
-      setFormData({ title: '', description: '' }); // Reset form data
+      setSubmittedEntries((prevEntries) => [...prevEntries, formData]); 
+      setFormData({ title: '', description: '' }); //
     }
   };
 

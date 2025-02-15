@@ -154,24 +154,17 @@
   font-size: 13px;
 }
 
-
 .box_top_right p {
   text-align: left;
-
 }
-
 
 .box_top_right .speciality {
   text-align: center; 
-  
 }
 
 .box_top_right p:last-child {
   font-size: 12px;
 }
-
-
-
 
 .box_bottom .status {
   display: flex;
@@ -196,11 +189,10 @@
 
 .box_top_right h6 {
   font-weight: 700;
-  margin-top: 10px; /* Adds margin-top to firstname */
+  margin-top: 10px; 
 }
 
 .box_top_right .speciality {
-  /* font-style: italic; */
   font-size: 13px;
   padding-bottom: 12px;
 }

@@ -18,10 +18,8 @@ const Home = () => {
         <h1 className={styles.title}>
           MÜTƏXƏSSİSLƏRİ <span></span>{" "}
         </h1>
-      </div>
-            
+      </div>     
     </div>
-   
   );
 };
 

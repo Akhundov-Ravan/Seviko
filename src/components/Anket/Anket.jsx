@@ -17,7 +17,7 @@ const Anket = ({ onSubmit, inputRef }) => {
     skills: "",
     certificates: "",
     about: "",
-    jobStatus: "İş axtarır", // New field for İş status
+    jobStatus: "İş axtarır", 
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -59,9 +59,9 @@ const Anket = ({ onSubmit, inputRef }) => {
       skills: "",
       certificates: "",
       about: "",
-      jobStatus: "İş axtarır", // Reset İş status
+      jobStatus: "İş axtarır", 
     });
-    setCustomSubject(""); // Reset the custom subject field
+    setCustomSubject(""); 
     document.getElementById("resume").value = "";
     document.getElementById("image").value = "";
   };
@@ -69,8 +69,8 @@ const Anket = ({ onSubmit, inputRef }) => {
   const handleAddSubject = () => {
     if (customSubject.trim() && !subjects.includes(customSubject)) {
       setSubjects([...subjects, customSubject]);
-      setValues({ ...values, subject: customSubject }); // Auto-select new subject
-      setCustomSubject(""); // Clear input
+      setValues({ ...values, subject: customSubject }); 
+      setCustomSubject(""); 
     }
   };
 
@@ -164,7 +164,6 @@ const Anket = ({ onSubmit, inputRef }) => {
             Əlavə et
           </button>
 
-          {/* New "İş statusu" select field */}
           <label htmlFor="jobStatus">İş axtarır</label>
           <select
             name="jobStatus"

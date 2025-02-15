@@ -46,18 +46,3 @@ footer .logo img {
 .logo div:first-child:hover, .logo p:hover {
   color: rgb(227, 233, 146);
 }
-
-/* .logo .contacts .socials img {
-  height: 16px;
-  width: 16px;
-  object-fit: cover;
-} */
-
-/* .logo .contacts div {
-  object-fit: cover;
-} */
-/* 
-.contacts img  {
-  width: 50px;
-  height: 150px;
-} */

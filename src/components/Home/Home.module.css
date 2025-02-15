@@ -1,12 +1,10 @@
 .vdContainer {
   width: 100%;
   margin-bottom: -10px;
-  /* height: 88vh; */
 }
 
 video {
   width: 100%;
-  /* height: 78vh; */
   object-fit: cover;
 }
 
@@ -17,9 +15,6 @@ video {
   left: 50%;
   top: 82%;
   transform: translate(-50%, -50%);
-  /* display: flex;
-  justify-content: center;
-  align-items: first baseline; */
   text-align: center;
   color: white;
   gap: 20px;
@@ -122,12 +117,6 @@ video {
 
   }
 }
-
-/* @keyframes flag_title {
-  100% {
-    background: linear-gradient(to right, blue, red, green);
-  }
-} */
 
 @keyframes scale {
   100% {
