@@ -65,7 +65,6 @@ function App() {
         <Route path="/add" element={<Add onAddProfile={handleAddProfile} />} />
         <Route path="/specialist" element={<Specialist />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/footer" element={<Footer />} />
       </Routes>
       <Footer />
     </BrowserRouter>

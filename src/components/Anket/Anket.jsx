@@ -50,6 +50,7 @@ const Anket = ({ onSubmit, inputRef }) => {
       email: "",
       mobile: "",
       subject: "Front-End",
+      city: "",
       gender: "",
       company: "",
       position: "",
@@ -139,6 +140,15 @@ const Anket = ({ onSubmit, inputRef }) => {
             onChange={handleChanges}
           />{" "}
           Qadın
+
+          <input
+            type="text"
+            value={values.city}
+            name="city"
+            placeholder="Yaşadığı yeri daxil edin"
+            required
+            onChange={handleChanges}
+          />
 
           <label htmlFor="subject">Sahə</label>
           <select
