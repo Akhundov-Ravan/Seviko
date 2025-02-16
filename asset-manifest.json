@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Seviko/static/css/main.eaebfc3a.css",
+    "main.css": "/Seviko/static/css/main.4ad2304a.css",
     "main.js": "/Seviko/static/js/main.26f55ec7.js",
     "static/media/hologram.mp4": "/Seviko/static/media/hologram.58fd37023f265d7c4c14.mp4",
     "static/media/fon.jpg": "/Seviko/static/media/fon.9ad32f82aa62d9cb5981.jpg",
     "static/media/Logo.jpg": "/Seviko/static/media/Logo.63de4270b586c8b3eae6.jpg",
     "static/media/email.png": "/Seviko/static/media/email.596fac56b80d82a34182.png",
     "index.html": "/Seviko/index.html",
-    "main.eaebfc3a.css.map": "/Seviko/static/css/main.eaebfc3a.css.map",
+    "main.4ad2304a.css.map": "/Seviko/static/css/main.4ad2304a.css.map",
     "main.26f55ec7.js.map": "/Seviko/static/js/main.26f55ec7.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaebfc3a.css",
+    "static/css/main.4ad2304a.css",
     "static/js/main.26f55ec7.js"
   ]
 }
